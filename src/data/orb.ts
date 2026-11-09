@@ -140,10 +140,10 @@ export const ORB_STATES: { id: OrbState; name: string; when: string; drives: str
 
 /** Where the code lives: the nav's star count and every "get the code" link. */
 export const ORB_REPO = {
-  owner: "imuvrays1",
-  name: "voice-orb",
-  url: "https://github.com/imuvrays1/voice-orb",
-  license: "https://github.com/imuvrays1/voice-orb/blob/main/LICENSE",
+  owner: "umer-2k1",
+  name: "voice-iris",
+  url: "https://github.com/umer-2k1/voice-iris",
+  license: "https://github.com/umer-2k1/voice-iris/blob/main/LICENSE",
 };
 
 /**
