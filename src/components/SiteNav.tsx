@@ -4,8 +4,7 @@
  */
 
 import Link from "next/link";
-import { ArrowUpRight } from "@phosphor-icons/react";
-import { ORB_AUTHOR, ORB_LAB, ORB_OPENFILE, ORB_REPO } from "@/data/orb";
+import { ORB_AUTHOR, ORB_LAB, ORB_REPO } from "@/data/orb";
 import GitHubStars from "./GitHubStars";
 import styles from "./SiteNav.module.css";
 
@@ -13,10 +12,9 @@ const N = ORB_LAB.nav;
 const F = ORB_LAB.footer;
 
 /**
- * The bar across the top: the mark, jumps to the page's main sections, a
- * quiet link to Openfile's templates, and the repository with its live star
- * count. Sits inside the page's ground, so it follows the light and dark
- * grounds.
+ * The bar across the top: the mark, jumps to the page's main sections, and
+ * the repository with its live star count. Sits inside the page's ground, so
+ * it follows the light and dark grounds.
  */
 export default function SiteNav() {
   return (
@@ -37,16 +35,6 @@ export default function SiteNav() {
             ))}
           </ul>
           {/* Outside the list, so it stays when a phone hides the section links. */}
-          <a
-            href={ORB_OPENFILE.href("nav")}
-            target="_blank"
-            rel="noopener"
-            className={`${styles.link} ${styles.external}`}
-            aria-label={N.templatesLabel}
-          >
-            {N.templates}
-            <ArrowUpRight weight="bold" aria-hidden="true" />
-          </a>
           <GitHubStars owner={ORB_REPO.owner} repo={ORB_REPO.name} label={N.starLabel} star={N.star} />
         </div>
       </div>

@@ -152,19 +152,8 @@ export const ORB_REPO = {
  * `url` is where the name links (GitHub until there is an X profile).
  */
 export const ORB_AUTHOR = {
-  name: "UV",
-  url: "https://github.com/imuvrays1",
-};
-
-/**
- * Openfile, UV's shop of Framer templates: a link in the nav and one quiet
- * card at the foot of the page. Each link carries UTM tags, and utm_content
- * names the spot it sits in, so Openfile's analytics can tell the two apart.
- */
-export const ORB_OPENFILE = {
-  name: "Openfile",
-  href: (spot: "nav" | "banner") =>
-    `https://openfile.pro/?utm_source=voice-orb&utm_medium=referral&utm_campaign=voice-orb&utm_content=${spot}`,
+  name: "umer-2k1",
+  url: "https://github.com/umer-2k1",
 };
 
 /**
@@ -203,27 +192,19 @@ export const ORB_LAB = {
   /** The secondary call to action in the header. */
   howLink: "How it works",
   nav: {
-    home: "Voice orb",
+    home: "Iris",
     links: [
       { href: "#inside", name: "How it works" },
       { href: "#use", name: "Use it" },
     ],
     star: "Star",
-    starLabel: "Star voice-orb on GitHub",
-    templates: "Templates",
-    templatesLabel: "Templates: Framer templates on Openfile, opens in a new tab",
+    starLabel: "Star voice-iris on GitHub",
   },
   footer: {
-    built: "Built by",
+    built: "Maintained by",
     licence: "MIT licence",
     source: "Source on GitHub",
     journal: "Build journal",
-  },
-  openfile: {
-    label: "Also by UV",
-    title: "Openfile",
-    body: "Framer templates for products, studios and portfolios, with every page shown before you buy. Some are free.",
-    cta: "Browse templates",
   },
   reducedMotion: "Reduced motion is on, so every orb holds one still frame.",
   controls: {
