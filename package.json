@@ -1,0 +1,32 @@
+{
+  "name": "voice-iris",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Iris: an audio-reactive WebGL2 orb for voice interfaces.",
+  "author": "umer-2k1 (https://github.com/umer-2k1)",
+  "homepage": "https://umer-2k1.github.io/voice-iris/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umer-2k1/voice-iris.git"
+  },
+  "bugs": "https://github.com/umer-2k1/voice-iris/issues",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "2.1.10",
+    "next": "16.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "25.0.10",
+    "@types/react": "19.2.9",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  },
+  "license": "MIT"
+}
