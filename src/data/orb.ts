@@ -354,19 +354,13 @@ export const ORB_LAB = {
         id: "clone",
         name: "Run it",
         body: "Clone the repository and start the page you are reading.",
-        code: "git clone https://github.com/imuvrays1/voice-orb.git\ncd voice-orb\npnpm install\npnpm dev",
+        code: "git clone https://github.com/umer-2k1/voice-iris.git\ncd voice-iris\npnpm install\npnpm dev",
       },
       {
         id: "copy",
         name: "Copy it in",
         body: "Copy src/lib/orb, src/components/VoiceOrb.tsx (and its CSS) and src/data/orb.ts into your React app, with LICENSE, and keep the notice at the top of each file. Then give it any AnalyserNode.",
         code: "import VoiceOrb from \"@/components/VoiceOrb\";\nimport { AnalyserLevels } from \"@/lib/orb/audio\";\n\n// Any Web Audio AnalyserNode: an <audio>, the mic, a voice SDK.\nconst voice = new AnalyserLevels(analyser);\n\n<VoiceOrb palette=\"twilight\" state=\"talking\" voice={voice} />",
-      },
-      {
-        id: "claude",
-        name: "Ask Claude",
-        body: "Install Voice orb by UV, the Claude Code skill, then ask for an orb. It copies the files with their licence and connects your audio.",
-        code: "/plugin marketplace add imuvrays1/voice-orb\n/plugin install voice-orb-by-uv@voice-orb\n\nAdd a voice orb to my call screen",
       },
     ],
     copy: "Copy",
@@ -423,7 +417,7 @@ export const ORB_LAB = {
   more: {
     title: "Read the build journal",
     body: "Every step from a blank canvas to this page: what was tried, what broke, and the fix.",
-    href: "https://github.com/imuvrays1/voice-orb/blob/main/docs/journey.md",
+    href: "https://github.com/umer-2k1/voice-iris/blob/main/docs/journey.md",
     link: "Open the journal",
   },
 };
