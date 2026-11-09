@@ -4,8 +4,6 @@
 
 Iris is the presence indicator for a voice agent: it idles, opens when someone speaks, and ripples while it answers. No images, no avatar, no video — one shader surface that reacts to a real voice.
 
-Built on *[Voice orb](https://github.com/imuvrays1/voice-orb)* by UV, MIT licensed. See [LICENSE](./LICENSE).
-
 ---
 
 ## What it does
