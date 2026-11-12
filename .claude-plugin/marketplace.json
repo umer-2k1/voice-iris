@@ -1,15 +1,16 @@
+
 {
-  "name": "voice-orb",
-  "description": "Voice orb by UV: a Claude skill that adds the audio-reactive voice orb to your React app and connects it to your audio.",
+  "name": "voice-iris",
+  "description": "Voice Iris by UV: an audio-reactive WebGL2 orb for voice interfaces. A Claude skill that adds a beautiful, real-time voice-reactive orb to your React and Next.js apps and connects it to audio playback, microphones, and voice SDKs.",
   "owner": {
     "name": "UV",
-    "url": "https://github.com/imuvrays1"
+    "url": "https://github.com/umer-2k1"
   },
   "plugins": [
     {
-      "name": "voice-orb-by-uv",
+      "name": "voice-iris-by-uv",
       "source": "./plugin",
-      "description": "Voice orb by UV: add an audio-reactive WebGL2 voice orb to a React or Next.js app and connect it to an <audio> element, the microphone or a voice SDK. MIT."
+      "description": "Voice Iris by UV: integrate an audio-reactive WebGL2 orb into React or Next.js applications. Features six voice states, four visual styles, customizable palettes, real-time audio visualization, microphone input, audio element integration, and voice SDK support. Built with React and WebGL2. MIT."
     }
   ]
 }

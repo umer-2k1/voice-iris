@@ -319,7 +319,7 @@ licence notice in every copy. So the notice goes where copies come from:
 
 | Where | What |
 |-------|------|
-| `LICENSE` | `Copyright (c) 2026 UV (https://github.com/imuvrays1/voice-orb)` |
+| `LICENSE` | `Copyright (c) 2026 UV (https://github.com/umer-2k1/voice-iris)` |
 | The top of every source file | A three-line `/*!` notice: Voice orb by UV, the repository, the copyright, MIT. The `!` tells minifiers to keep it, so it survives into production bundles |
 | `package.json` | Author, homepage, repository and issues |
 | README | "by UV" under the title, a Credit section with the notice to keep, and a polite ask for a visible credit |
@@ -341,7 +341,7 @@ wide screen and down on a phone.
 ## 13. Going public
 
 The lab where all this was built stays private, and the open-source repository,
-[imuvrays1/voice-orb](https://github.com/imuvrays1/voice-orb), starts with one clean
+(https://github.com/umer-2k1/voice-iris), starts with one clean
 commit. A copy, not the lab's history, because history keeps everything: a file deleted
 in a later commit is still one `git checkout` away. Starting fresh means only what is
 meant to be public was ever in it.
@@ -359,9 +359,7 @@ Before the first push, a last check:
 | The repository name is free, and the push uses the owner's account | The star count and every link already point at it |
 
 ## 14. A live page on GitHub Pages
-
-The page is now live at [imuvrays1.github.io/voice-orb](https://imuvrays1.github.io/voice-orb/),
-hosted by GitHub Pages and rebuilt by a workflow on every push to `main`.
+ 
 
 **Why it works as plain files.** Pages serves files and nothing else: no server code runs.
 This page never needed any. Every route is prerendered, and everything that moves

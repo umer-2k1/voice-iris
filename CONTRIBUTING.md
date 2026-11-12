@@ -33,7 +33,7 @@ Before opening a pull request, run `pnpm typecheck` and `pnpm build`.
 - **Keep it fast.** Orbs draw only on screen and in a visible tab. Keep it that way.
 - **Start every new source file with the licence notice.** It's the same notice as
   in the other files:
-  `/*! Voice orb by UV · https://github.com/imuvrays1/voice-orb … */`.
+  `/*! Voice orb by UV · https://github.com/umer-2k1/voice-iris … */`.
 - **Use original assets only.** Audio, images or shader code from other projects only
   come in with a licence that allows it. Credit them in the README.
 

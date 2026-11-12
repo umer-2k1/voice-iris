@@ -1,5 +1,5 @@
 /*!
- * Voice orb by UV · https://github.com/imuvrays1/voice-orb
+ * Voice orb by UV · https://github.com/umer-2k1/voice-iris
  * Copyright (c) 2026 UV · MIT License (see LICENSE). Keep this notice in copies.
  */
 
